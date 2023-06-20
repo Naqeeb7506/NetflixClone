@@ -326,11 +326,13 @@ footer .container .opt select {
     transform: translateY(0px);
   }
 }
-.no_display {
-  transition: all 0.5s linear;
+.question_boxes .box .box_text {
   display: none;
 }
 
+.question_boxes .box.show_text .box_text {
+  display: block;
+}
 .questions .container .question_boxes .box .box_text h2 {
   padding-top: 20px;
 }
