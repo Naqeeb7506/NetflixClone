@@ -1,0 +1,257 @@
+@media screen and (max-width: 1250px) {
+  .main nav {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .main .center .text h1 {
+    font-size: 40px;
+  }
+  .tv_section .container,
+  .download .container,
+  .watch .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .download .container .download_text h1 {
+    font-size: 40px;
+  }
+  .download .container .mobile_img .box {
+    width: 350px;
+    left: 25%;
+    bottom: 8%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .download .container .download_text h1 {
+    font-size: 30px;
+  }
+  .download .container .download_text p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .download .container .download_text h1 {
+    font-size: 25px;
+  }
+  .download .container .download_text p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .main nav .logo {
+    width: 100px;
+  }
+  .main .center .text h1 {
+    font-size: 35px;
+  }
+  .main .center .text h2 {
+    font-size: 20px;
+  }
+  .main .center .text p {
+    font-size: 18px;
+  }
+  .main .center form button {
+    font-size: 22px;
+    padding: 12px 25px;
+  }
+
+  .tv_section,
+  .download,
+  .watch,
+  .children {
+    height: 60vh;
+  }
+
+  .tv_section .container,
+  .watch .container {
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    text-align: center;
+  }
+  .tv_section .container .tv_img {
+    width: 50%;
+  }
+  .tv_section .container .tv_img img {
+    padding: 20px 0;
+  }
+  .tv_section .container .tv_text h1,
+  .watch .container .watch_text h1 {
+    font-size: 40px;
+    padding-top: 100px;
+  }
+  .tv_section .container .tv_text p,
+  .watch .container .watch_text p {
+    font-size: 20px;
+  }
+  .download .container {
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  .download .container .download_text h1 {
+    font-size: 35px;
+    padding-top: 100px;
+  }
+  .download .container .mobile_img {
+    width: 60%;
+    margin-bottom: 100px;
+  }
+  .download .container .mobile_img img {
+    width: 100%;
+  }
+  .download .container .mobile_img .box {
+    width: 400px;
+    left: 5%;
+    bottom: 8%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main .center .text h1 {
+    font-size: 32px;
+  }
+  .main .center .text h2 {
+    font-size: 20px;
+  }
+  .main .center .text p {
+    font-size: 18px;
+  }
+  .main nav .nav_btn .btn {
+    font-size: 15px;
+  }
+  .watch .container .watch_text h1 {
+    padding-top: 60px;
+  }
+}
+
+@media screen and (max-width: 732px) {
+  .main .center .text h1 {
+    font-size: 30px;
+  }
+  .main .center .text h2 {
+    font-size: 18px;
+  }
+  .main .center .text p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .main .center .text h1 {
+    font-size: 28px;
+  }
+  .main .center .text h2 {
+    font-size: 16px;
+  }
+  .main .center .text p {
+    font-size: 14px;
+  }
+  .main .center form {
+    flex-direction: column;
+  }
+  .main .center form input {
+    width: 100%;
+  }
+  .main .center form button {
+    font-size: 20px;
+    padding: 12px 25px;
+  }
+  .main nav .nav_btn .btn {
+    font-size: 13px;
+  }
+  .main nav .nav_btn {
+    gap: 20px;
+  }
+  .download .container .mobile_img {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .download .container .mobile_img img {
+    width: 100%;
+  }
+  .download .container .mobile_img .box {
+    width: 300px;
+    height: 80px;
+    left: 10%;
+    bottom: 8%;
+  }
+  .tv_section .container .tv_text h1,
+  .watch .container .watch_text h1,
+  .download .container .download_text h1 {
+    font-size: 35px;
+  }
+  .tv_section .container .tv_text p,
+  .watch .container .watch_text p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .download .container .mobile_img .box {
+    left: 22%;
+    bottom: 8%;
+    width: 300px;
+    height: 80px;
+  }
+  .tv_section .container .tv_text h1,
+  .watch .container .watch_text h1,
+  .download .container .download_text h1 {
+    font-size: 30px;
+  }
+  .tv_section .container .tv_text p,
+  .watch .container .watch_text p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .main .center form input {
+    font-size: 18px;
+    padding: 15px;
+  }
+  .download .container .mobile_img .box {
+    left: 17%;
+    bottom: 8%;
+    width: 300px;
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .download .container .mobile_img .box {
+    left: 18%;
+    bottom: 8%;
+    width: 250px;
+    height: 80px;
+  }
+  .tv_section .container .tv_text h1,
+  .watch .container .watch_text h1,
+  .download .container .download_text h1 {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .main nav {
+    flex-direction: column;
+  }
+  .download .container .mobile_img .box {
+    display: none;
+  }
+  .tv_section .container .tv_text h1,
+  .watch .container .watch_text h1,
+  .download .container .download_text h1 {
+    font-size: 28px;
+  }
+  .tv_section .container .tv_text p,
+  .watch .container .watch_text p {
+    font-size: 14px;
+  }
+}
